@@ -1,4 +1,3 @@
-var express = require('express');
 var user = require('../model/user');
 var con = require('../db');
 

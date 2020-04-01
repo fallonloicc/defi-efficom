@@ -16,6 +16,7 @@ router
     .post('/', function (req, res, next) {
       userController.newUser(req, res);
     })
+    //Login
     .post('/login/', function (req, res, next) {
         userController.login(req, res)
     })
